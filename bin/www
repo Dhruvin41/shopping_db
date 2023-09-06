@@ -10,7 +10,7 @@ var http = require('http');
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://127.0.0.1:27017/shopping_bd')
+mongoose.connect('mongodb+srv://dhruvin:JdY38QrRb9HRLCvU@cluster0.pfhnrgy.mongodb.net/shopping_bd')
   .then(() => console.log('Connected!'));
 
 /**
